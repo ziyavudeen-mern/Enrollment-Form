@@ -8,6 +8,88 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <center><h1 class="heading" >STUDENT ENROLLMENT FORM</h1></center>
+    <form>
+        <label for="First name" >First Name :</label>
+        <input type="text" id="fname" name="First Name"
+        placeholder="Enter First Name">
+        <br>
+        <br>
+        <label for="Last name" >Last Name :</label>
+        <input type="text" id="lname" name="Last Name"
+        placeholder="Enter Last Name">
+        <br>
+        <br>
+        <label for="Register Number" >Register Number :</label>
+        <input type="text" id="reg.no" name="Register Number"
+        placeholder="Enter Register Number">
+        <br>
+        <br>
+        <label for="Mobile number" >Mobile Number :</label>
+        <input type="text" id="mobi" pattern="[789][0-9]{9}" name="Mobile number"
+        placeholder="Enter Mobile Number">
+        <br>
+        <br>
+        <label for="gender" >Gender :</label><br>
+        <input type="radio" id="gender" name="gender"> Male
+        <input type="radio" id="gender" name="gender"> Female
+      <input type="radio" id="gender" name="gender">Other
+    </select>
+    </form>
+        <br>
+        <br>
+        <label for="email" >Email :</label>
+        <input type="text" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="Email" placeholder="Enter Email id">
+        <br>
+        <br>
+        <label for="department" >Department</label>
+        <select id="depat" name="department">
+            <option value="" disabled selected>Dept</option>
+            <option value="MECH">MECH</option>
+            <option value="EEE">EEE</option>
+            <option value="ece">ECE</option>
+            <option value="CSE">CSE</option>
+            <option value="civil">CIVIL</option>
+        </select>
+        <br>
+        <br>
+        <label for="year">Year</label>
+        <select id="year" name="year">
+            <option  value=""disabled selected>year</option>
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+        </select>
+        <br>
+        <br>
+        <lable for="language" >Languages Known</lable>
+        <br>
+        <input type="checkbox" id="c" name="C"> C<br>
+        <input type="checkbox" id="c++" name="C"> C++<br>
+        <input type="checkbox" id="java" name="C"> Java<br>
+        <input type="checkbox" id="py" name="C"> Python
+        <br>
+        <br>
+        <label for="slot">Slots</label>
+        <select id="slot" name="slots">
+            <option  value="" disabled selected>slots</option>
+            <option value="10am">10am</option>
+            <option value="2pm">2pm</option>
+            <option value="5pm">5pm</option>
+        </select>
+        <br>
+        <br>
+        <label for="file">Resume :</label>
+        <input type="file" id="fl" name="file">
+        <br>
+        <br>
+        <label for="submit">Submit :</label>
+        <br>
+
+        <input type="submit" id="sub" name="submi">
+    </form>
+
     
 </body>
 </html>
